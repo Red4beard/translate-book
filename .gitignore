@@ -21,3 +21,19 @@ __pycache__/
 .claude/*
 !.claude/commands/
 _bmad/
+
+# Credentials and secrets
+.env
+.env.local
+.env.*.local
+.env.production.local
+credentials.json
+service-account*.json
+client_secret*.json
+oauth-token.json
+*.pem
+*.key
+*.p8
+.aws/credentials
+.aws/config
+!.aws/config.example
